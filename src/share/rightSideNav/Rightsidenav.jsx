@@ -1,5 +1,7 @@
 import { FaGoogle, FaGithub, FaFacebook, FaTwitter, FaInstagram } from 'react-icons/fa';
-
+import Qzone1 from '../../../src/assets/qZone1.png';
+import Qzone2 from '../../../src/assets/qZone2.png';
+import Qzone3 from '../../../src/assets/qZone3.png';
 const Rightsidenav = () => {
     return (
         <div>
@@ -29,6 +31,13 @@ const Rightsidenav = () => {
                  <FaInstagram></FaInstagram>
                  Instagram
                </a>
+            </div>
+
+            {/* img part start */}
+            <div className='grid grid-cols-1 ml-14 md:ml-0'>
+                <div><img src={Qzone1} alt="" /></div>
+                <div><img src={Qzone2} alt="" /></div>
+                <div><img src={Qzone3} alt="" /></div>
             </div>
         </div>
     );
